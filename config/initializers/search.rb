@@ -1,0 +1,1 @@
+Tog::Search.sources << "Story"

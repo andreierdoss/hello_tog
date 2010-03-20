@@ -1,0 +1,1 @@
+<%= content_tag(:li, answer.body + (answer.suitable? ? " SUITABLE" : "" ), :class => ("suitable_answer" if answer.suitable?)) %>

@@ -1,0 +1,8 @@
+<%= I18n.t("oracle.questions.close_request_mail.beginning_greeting", :name => @asker_name ) %>,
+
+<%= I18n.t("oracle.questions.close_request_mail.body", :question => @question ) %>:
+
+<%= @answer_link %>
+
+<%= I18n.t("oracle.questions.close_request_mail.ending_greeting") %>,
+<%= @sender_name %>

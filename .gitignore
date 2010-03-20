@@ -1,0 +1,6 @@
+*~
+*.cache
+*.log
+*.pid
+tmp/**/*
+.DS_Store
